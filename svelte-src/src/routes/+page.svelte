@@ -3,7 +3,7 @@ import { onMount } from 'svelte';
 import { marked } from 'marked';
 
 let ai_types = [
-    {name: "Coder", value: "Я программтист."},
+    {name: "Coder", value: "You are a programming expert"},
     {name: "Empty", value: ""},
 ];
 let ai_type = ai_types[0].value;

@@ -13,7 +13,7 @@ func main() {
 	// Get the API key from the environment variable OPENAI_API_KEY
 
 	//	apiKey := os.Getenv("OPENAI_API_KEY")
-	apiKey := "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"
+	apiKey := ""
 	client := openai.NewClient(apiKey)
 
 	http.Handle("/", http.FileServer(http.Dir("static")))
