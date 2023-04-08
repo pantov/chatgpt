@@ -7,11 +7,11 @@ const css = {
 };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let ai_types = [
+    { name: "Empty", value: "" },
     {
       name: "Coder",
       value: "You are a programming expert"
-    },
-    { name: "Empty", value: "" }
+    }
   ];
   let chat = [];
   let textareaRef;

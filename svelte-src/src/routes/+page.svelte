@@ -3,8 +3,8 @@ import { onMount } from 'svelte';
 import { marked } from 'marked';
 
 let ai_types = [
-    {name: "Coder", value: "You are a programming expert"},
     {name: "Empty", value: ""},
+    {name: "Coder", value: "You are a programming expert"},
 ];
 let ai_type = ai_types[0].value;
 let chat = [], question = '', waiting = false;

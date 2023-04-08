@@ -33,14 +33,18 @@ declare module '$env/static/private' {
 	export const CommonProgramW6432: string;
 	export const COMPUTERNAME: string;
 	export const ComSpec: string;
+	export const DokanLibrary1: string;
+	export const DokanLibrary1_LibraryPath_x64: string;
+	export const DokanLibrary1_LibraryPath_x86: string;
 	export const DriverData: string;
 	export const EDITOR: string;
+	export const EFC_12628: string;
 	export const FARHOME: string;
 	export const FARLANG: string;
 	export const FARLOCALPROFILE: string;
 	export const FARPROFILE: string;
-	export const GOPATH: string;
-	export const GOROOT: string;
+	export const FPS_BROWSER_APP_PROFILE_STRING: string;
+	export const FPS_BROWSER_USER_PROFILE_STRING: string;
 	export const HOME: string;
 	export const HOMEDRIVE: string;
 	export const HOMEPATH: string;
@@ -74,7 +78,6 @@ declare module '$env/static/private' {
 	export const NPM_PREFIX_NPM_CLI_JS: string;
 	export const NUMBER_OF_PROCESSORS: string;
 	export const OneDrive: string;
-	export const OneDriveConsumer: string;
 	export const OS: string;
 	export const Path: string;
 	export const PATHEXT: string;
@@ -87,6 +90,8 @@ declare module '$env/static/private' {
 	export const ProgramW6432: string;
 	export const PROMPT: string;
 	export const PSModulePath: string;
+	export const PTSMINSTALLPATH: string;
+	export const PTSMINSTALLPATH_X86: string;
 	export const PUBLIC: string;
 	export const SESSIONNAME: string;
 	export const SystemDrive: string;
@@ -97,7 +102,6 @@ declare module '$env/static/private' {
 	export const USERDOMAIN_ROAMINGPROFILE: string;
 	export const USERNAME: string;
 	export const USERPROFILE: string;
-	export const VBOX_MSI_INSTALL_PATH: string;
 	export const windir: string;
 	export const ZES_ENABLE_SYSMAN: string;
 }
@@ -136,14 +140,18 @@ declare module '$env/dynamic/private' {
 		CommonProgramW6432: string;
 		COMPUTERNAME: string;
 		ComSpec: string;
+		DokanLibrary1: string;
+		DokanLibrary1_LibraryPath_x64: string;
+		DokanLibrary1_LibraryPath_x86: string;
 		DriverData: string;
 		EDITOR: string;
+		EFC_12628: string;
 		FARHOME: string;
 		FARLANG: string;
 		FARLOCALPROFILE: string;
 		FARPROFILE: string;
-		GOPATH: string;
-		GOROOT: string;
+		FPS_BROWSER_APP_PROFILE_STRING: string;
+		FPS_BROWSER_USER_PROFILE_STRING: string;
 		HOME: string;
 		HOMEDRIVE: string;
 		HOMEPATH: string;
@@ -177,7 +185,6 @@ declare module '$env/dynamic/private' {
 		NPM_PREFIX_NPM_CLI_JS: string;
 		NUMBER_OF_PROCESSORS: string;
 		OneDrive: string;
-		OneDriveConsumer: string;
 		OS: string;
 		Path: string;
 		PATHEXT: string;
@@ -190,6 +197,8 @@ declare module '$env/dynamic/private' {
 		ProgramW6432: string;
 		PROMPT: string;
 		PSModulePath: string;
+		PTSMINSTALLPATH: string;
+		PTSMINSTALLPATH_X86: string;
 		PUBLIC: string;
 		SESSIONNAME: string;
 		SystemDrive: string;
@@ -200,7 +209,6 @@ declare module '$env/dynamic/private' {
 		USERDOMAIN_ROAMINGPROFILE: string;
 		USERNAME: string;
 		USERPROFILE: string;
-		VBOX_MSI_INSTALL_PATH: string;
 		windir: string;
 		ZES_ENABLE_SYSMAN: string;
 		[key: `PUBLIC_${string}`]: undefined;
